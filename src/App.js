@@ -1,27 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {Layout } from 'antd';
+import Game from './components/Game';
+//import logo from './logo.svg';
 import './App.css';
 
+
+const {Header, Footer, Content} = Layout;
+
 class App extends Component {
+    constructor(){
+        super();
+    }
+
   render() {
+
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+	      <Layout theme={"light"}>
+            <Header>
+                <h1 style={{color:'#bbbbbb'}}>扫雷&nbsp;MineSweeper</h1>
+            </Header>
+            <Content >
+                <Game  style={{margin:'auto auto',textAlign:'center',padding:24}}/>
+            </Content>
+            <Footer>
+                <div >shiwen 扫雷游戏</div>
+            </Footer>
+          </Layout>
+
       </div>
     );
+
   }
 }
 
