@@ -63,7 +63,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://yaswen.github.io/myapp",
+  "homepage": "http://yaswen.github.io/mswp",
   "eslintConfig": {
     "extends": "react-app"
   },
