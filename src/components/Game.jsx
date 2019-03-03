@@ -172,6 +172,9 @@ class Game extends Component {
 					}
 
 					if (gameOver) {
+						this.setState({
+							gameStatus:'no'
+						});
 						console.log(`游戏结束了，雷扫完了`);
 						message.success(`游戏结束了，雷扫完了`);
 					}
@@ -255,16 +258,18 @@ class Game extends Component {
 						//shape = "circle"　　//按钮圆角（默认为方形）
 						    onClick={this.startClick}
 						    style={{margin: 'auto 8px'}}
-					>开始游戏</Button>
+					>
+						{this.state.gameStatus==="no"?'开始游戏':'重新开始'}
+					</Button>
 					<Dropdown overlay={menu}>
 						<Button>
 							其它尺寸<Icon type="down"/>
 						</Button>
 					</Dropdown>
-					<Button type="default"   //按钮样式颜色
-					        style={{margin: 'auto 8px'}}
-					        onClick={this.endClick}
-					>结束游戏</Button>
+					{/*<Button type="default"   */}
+					        {/*style={{margin: 'auto 8px'}}*/}
+					        {/*onClick={this.endClick}*/}
+					{/*>结束游戏</Button>*/}
 				</div>
 				<Board
 					classname={'board'}
