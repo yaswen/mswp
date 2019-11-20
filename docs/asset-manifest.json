@@ -1,15 +1,15 @@
 {
-  "main.css": "/mswp/static/css/main.c8d86189.chunk.css",
-  "main.js": "/mswp/static/js/main.fd263c96.chunk.js",
-  "main.js.map": "/mswp/static/js/main.fd263c96.chunk.js.map",
+  "main.css": "/mswp/static/css/main.0e5d85a8.chunk.css",
+  "main.js": "/mswp/static/js/main.8d33efa5.chunk.js",
+  "main.js.map": "/mswp/static/js/main.8d33efa5.chunk.js.map",
   "runtime~main.js": "/mswp/static/js/runtime~main.8228725c.js",
   "runtime~main.js.map": "/mswp/static/js/runtime~main.8228725c.js.map",
-  "static/css/2.204bce56.chunk.css": "/mswp/static/css/2.204bce56.chunk.css",
-  "static/js/2.d0461257.chunk.js": "/mswp/static/js/2.d0461257.chunk.js",
-  "static/js/2.d0461257.chunk.js.map": "/mswp/static/js/2.d0461257.chunk.js.map",
+  "static/css/2.cd0f3c19.chunk.css": "/mswp/static/css/2.cd0f3c19.chunk.css",
+  "static/js/2.0f58ab4c.chunk.js": "/mswp/static/js/2.0f58ab4c.chunk.js",
+  "static/js/2.0f58ab4c.chunk.js.map": "/mswp/static/js/2.0f58ab4c.chunk.js.map",
   "index.html": "/mswp/index.html",
-  "precache-manifest.f706c5e9fe4342f4ea4a5922b77a17a2.js": "/mswp/precache-manifest.f706c5e9fe4342f4ea4a5922b77a17a2.js",
+  "precache-manifest.b703310f4b60b1da60d9c13f2d4cbc6b.js": "/mswp/precache-manifest.b703310f4b60b1da60d9c13f2d4cbc6b.js",
   "service-worker.js": "/mswp/service-worker.js",
-  "static/css/2.204bce56.chunk.css.map": "/mswp/static/css/2.204bce56.chunk.css.map",
-  "static/css/main.c8d86189.chunk.css.map": "/mswp/static/css/main.c8d86189.chunk.css.map"
+  "static/css/2.cd0f3c19.chunk.css.map": "/mswp/static/css/2.cd0f3c19.chunk.css.map",
+  "static/css/main.0e5d85a8.chunk.css.map": "/mswp/static/css/main.0e5d85a8.chunk.css.map"
 }
